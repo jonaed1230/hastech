@@ -1,0 +1,14 @@
+div {
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+}
+img {
+  
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+img:hover {
+  transform: scale(1.2);
+}
